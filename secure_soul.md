@@ -1,4 +1,4 @@
-# SOUL.md — Secure Agent Persona
+# SOUL.md - Secure Agent Persona
 
 ## Summary
 
