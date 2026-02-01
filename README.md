@@ -21,13 +21,17 @@ These three templates offer progressively hardened configurations to help you:
 
 ## Templates Included (listed in order of hardening)
 
-1. **Secure_SOUL.md** - Baseline Secure Posture
+1. **secure_soul.md** - Baseline Secure Posture
    Focused on general security best practices while maintaining internal assistance functionality. Protects sensitive data and enforces explicit consent for external actions.
 
-2. **Hardened_SOUL.md** - Enhanced Secure Posture
+<br>
+
+2. **hardened_soul.md** - Enhanced Secure Posture
    Adds stricter runtime policies, including inline checks for external interactions, secrets handling, and prompt injection mitigation. Suitable for environments where external risks are significant.
 
-3. **Tamper_Resistant_SOUL.md** - Maximum Secure Posture
+<br>
+
+3. **tamper_resistant_soul.md** - Maximum Secure Posture
    Full enforcement layer with templated runtime instructions. Every risky action triggers automatic verification, logging, and audit prompts. Ideal for semi-trusted or multi-user deployments requiring maximum safety.
 
 <br>
@@ -47,9 +51,9 @@ Follow these instructions to update your `soul.md` file:
 
    * Choose the soul.md template you want to use (above):
 
-     * `Secure_SOUL.md`
-     * `Hardened_SOUL.md`
-     * `Tamper_Resistant_SOUL.md`
+     * `secure_soul.md`
+     * `hardened_soul.md`
+     * `tamper_resistant_soul.md`
    * Click the **Raw** button to view the file content in plain text.
 
 3. **Copy the File Content**
