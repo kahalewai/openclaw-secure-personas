@@ -70,24 +70,20 @@ Follow these instructions to update your `soul.md` file:
 
 4. **Replace Your Existing SOUL.md and SOUL_EVIL.md**
 
-   * Open the existing `soul.md` in your OpenClaw workspace with a text editor (Notepad, VS Code, Sublime, etc.).
-   * Delete all existing content.
-   * Paste the content from the clipboard (**Ctrl+V / Cmd+V**).
-  
-   * Open the existing `soul_evil.md` in your OpenClaw workspace with a text editor (Notepad, VS Code, Sublime, etc.).
+   * Open the existing `soul.md` or `soul_evil.md` in your OpenClaw workspace with a text editor (Notepad, VS Code, Sublime, etc.).
    * Delete all existing content.
    * Paste the content from the clipboard (**Ctrl+V / Cmd+V**).
 
-5. **Save the File**
+4. **Save the File**
 
-   * Make sure the file name is exactly `soul.md` and soul_evil.md (case-sensitive on some systems).
+   * Make sure the file name is exactly `soul.md` or soul_evil.md (case-sensitive on some systems).
    * Click **Save** for each.
 
-6. **Restart OpenClaw**
+5. **Restart OpenClaw**
 
    * Close and reopen your OpenClaw agent so it loads the new `soul.md`.
 
-7. **Verify**
+6. **Verify**
 
    * Ask your agent a simple question, like “What rules do you follow?”
    * Check that the agent responds according to the security template and does not attempt any external action without confirmation.
