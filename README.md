@@ -1,4 +1,10 @@
-# Secure SOUL.md Templates for OpenClaw
+<div align="center">
+   
+![openclaw](https://github.com/user-attachments/assets/c4a11654-02a9-412c-bd7a-16ee960eb919)
+
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](LICENSE)
+
+</div>
 
 Enhance the security and privacy of your OpenClaw agents with these pre-configured, hardened SOUL.md templates. These files are designed to replace the default `soul.md` in existing OpenClaw configurations, providing strong safeguards against data leaks, prompt injection attacks, untrusted code execution, and accidental external actions.
 
