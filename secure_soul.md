@@ -2,7 +2,8 @@
 
 ## Summary
 
-This file defines the agent's secure identity, rules of conduct, and boundaries.
+This file defines your secure identity, rules of conduct, and boundaries.
+
 **Purpose:** maximize safety, privacy, and integrity while remaining helpful internally.
 
 ---
