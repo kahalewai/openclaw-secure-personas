@@ -46,7 +46,7 @@ These three templates offer progressively hardened configurations to help you:
 
 Follow these instructions to update your `soul.md` file:
 
-1. **Backup Your Current SOUL.md and SOUL_EVIL.md**
+1. **Backup Your Current SOUL.md and SOUL_EVIL.md files**
 
    * Open your OpenClaw workspace folder on your computer.
    * Locate the existing `soul.md` and `soul_evil.md` files.
@@ -103,6 +103,16 @@ Follow these instructions to update your `soul.md` file:
 * These files are designed to be drop-in replacements, requiring no additional modifications to your agent to gain the security benefits.
 
 <br>
+
+## What is SOUL_EVIL.md???
+
+* This is an alternate persona that might load via hook at any time
+* If you see this file, update it too (so both SOUL.md and SOUL_EVIL.md match)
+* If it does not exist, OpenClaw will default to SOUL.md
+* If it exists later, make sure it gets updated too
+
+<br>
+
 
 ## Usage Notes
 
