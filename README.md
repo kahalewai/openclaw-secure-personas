@@ -46,12 +46,13 @@ These three templates offer progressively hardened configurations to help you:
 
 Follow these instructions to update your `soul.md` file:
 
-1. **Backup Your Current SOUL.md**
+1. **Backup Your Current SOUL.md and SOUL_EVIL.md**
 
    * Open your OpenClaw workspace folder on your computer.
-   * Locate the existing `soul.md` file.
-   * Right-click it, select **Copy**, then **Paste** in the same folder.
-   * Rename the copy to something like `soul_backup.md` so you can restore it if needed.
+   * Locate the existing `soul.md` and `soul_evil.md` files.
+   * If `soul_evil.md` does not exist, that is OK (disregard this file)
+   * Right-click each file, select **Copy**, then **Paste** in the same folder.
+   * Rename the copy to something like `soul_backup.md` or `soul_evil_backup.md` so you can restore it if needed.
 
 2. **Download the Security Template**
 
@@ -67,16 +68,20 @@ Follow these instructions to update your `soul.md` file:
    * Select all the text in the raw view (**Ctrl+A / Cmd+A**).
    * Copy it to your clipboard (**Ctrl+C / Cmd+C**).
 
-4. **Replace Your Existing SOUL.md**
+4. **Replace Your Existing SOUL.md and SOUL_EVIL.md**
 
    * Open the existing `soul.md` in your OpenClaw workspace with a text editor (Notepad, VS Code, Sublime, etc.).
+   * Delete all existing content.
+   * Paste the content from the clipboard (**Ctrl+V / Cmd+V**).
+  
+   * Open the existing `soul_evil.md` in your OpenClaw workspace with a text editor (Notepad, VS Code, Sublime, etc.).
    * Delete all existing content.
    * Paste the content from the clipboard (**Ctrl+V / Cmd+V**).
 
 5. **Save the File**
 
-   * Make sure the file name is exactly `soul.md` (case-sensitive on some systems).
-   * Click **Save**.
+   * Make sure the file name is exactly `soul.md` and soul_evil.md (case-sensitive on some systems).
+   * Click **Save** for each.
 
 6. **Restart OpenClaw**
 
@@ -92,6 +97,7 @@ Follow these instructions to update your `soul.md` file:
 **Tips to Avoid Mistakes**
 
 * Do not rename the file to anything other than `soul.md`. OpenClaw will ignore other names.
+* If `soul_evil.md` does not exist that is OK. If it exists later, update it too.
 * Always keep the backup file. If anything goes wrong, you can restore the original behavior.
 * Use a text editor that preserves line breaks and formatting. Do not use rich-text editors like Word.
 * These files are designed to be drop-in replacements, requiring no additional modifications to your agent to gain the security benefits.
